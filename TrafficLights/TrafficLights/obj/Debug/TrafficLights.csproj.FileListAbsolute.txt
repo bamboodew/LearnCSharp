@@ -1,0 +1,13 @@
+D:\MyData\jinshuang1\source\repos\TrafficLights\TrafficLights\bin\Debug\TrafficLights.exe.config
+D:\MyData\jinshuang1\source\repos\TrafficLights\TrafficLights\bin\Debug\TrafficLights.exe
+D:\MyData\jinshuang1\source\repos\TrafficLights\TrafficLights\bin\Debug\TrafficLights.pdb
+D:\MyData\jinshuang1\source\repos\TrafficLights\TrafficLights\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+D:\MyData\jinshuang1\source\repos\TrafficLights\TrafficLights\bin\Debug\zh-Hans\Microsoft.VisualBasic.PowerPacks.resources.dll
+D:\MyData\jinshuang1\source\repos\TrafficLights\TrafficLights\obj\Debug\TrafficLights.csprojAssemblyReference.cache
+D:\MyData\jinshuang1\source\repos\TrafficLights\TrafficLights\obj\Debug\TrafficLights.Form1.resources
+D:\MyData\jinshuang1\source\repos\TrafficLights\TrafficLights\obj\Debug\TrafficLights.Properties.Resources.resources
+D:\MyData\jinshuang1\source\repos\TrafficLights\TrafficLights\obj\Debug\TrafficLights.csproj.GenerateResource.cache
+D:\MyData\jinshuang1\source\repos\TrafficLights\TrafficLights\obj\Debug\TrafficLights.csproj.CoreCompileInputs.cache
+D:\MyData\jinshuang1\source\repos\TrafficLights\TrafficLights\obj\Debug\TrafficLights.csproj.CopyComplete
+D:\MyData\jinshuang1\source\repos\TrafficLights\TrafficLights\obj\Debug\TrafficLights.exe
+D:\MyData\jinshuang1\source\repos\TrafficLights\TrafficLights\obj\Debug\TrafficLights.pdb
