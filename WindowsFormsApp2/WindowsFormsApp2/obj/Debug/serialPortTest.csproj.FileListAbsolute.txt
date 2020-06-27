@@ -1,0 +1,10 @@
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\serialPortTest.csprojAssemblyReference.cache
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\serialPortTest.csproj.GenerateResource.cache
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\serialPortTest.csproj.CoreCompileInputs.cache
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\serialPortTest.exe.config
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\serialPortTest.exe
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\serialPortTest.pdb
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\serialPortTest.Properties.Resources.resources
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\serialPortTest.exe
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\serialPortTest.pdb
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\serialPortTest.Form_SerialPortTest.resources

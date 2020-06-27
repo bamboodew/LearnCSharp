@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WindowsFormsApp1",
+    "\\WindowsFormsApp1\\bin\\Debug",
+    "\\WindowsFormsApp1\\bin\\Debug\\netcoreapp3.1",
+    "\\WindowsFormsApp1\\bin\\Release",
+    "\\WindowsFormsApp1\\obj",
+    "\\WindowsFormsApp1\\obj\\Debug"
+  ],
+  "SelectedNode": "\\WindowsFormsApp1\\obj\\project.nuget.cache",
+  "PreviewInSolutionExplorer": false
+}

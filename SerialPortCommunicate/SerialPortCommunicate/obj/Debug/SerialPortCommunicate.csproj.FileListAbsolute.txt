@@ -1,0 +1,10 @@
+D:\MyData\jinshuang1\source\repos\SerialPortCommunicate\SerialPortCommunicate\bin\Debug\SerialPortCommunicate.exe.config
+D:\MyData\jinshuang1\source\repos\SerialPortCommunicate\SerialPortCommunicate\bin\Debug\SerialPortCommunicate.exe
+D:\MyData\jinshuang1\source\repos\SerialPortCommunicate\SerialPortCommunicate\bin\Debug\SerialPortCommunicate.pdb
+D:\MyData\jinshuang1\source\repos\SerialPortCommunicate\SerialPortCommunicate\obj\Debug\SerialPortCommunicate.csprojAssemblyReference.cache
+D:\MyData\jinshuang1\source\repos\SerialPortCommunicate\SerialPortCommunicate\obj\Debug\SerialPortCommunicate.Properties.Resources.resources
+D:\MyData\jinshuang1\source\repos\SerialPortCommunicate\SerialPortCommunicate\obj\Debug\SerialPortCommunicate.csproj.GenerateResource.cache
+D:\MyData\jinshuang1\source\repos\SerialPortCommunicate\SerialPortCommunicate\obj\Debug\SerialPortCommunicate.csproj.CoreCompileInputs.cache
+D:\MyData\jinshuang1\source\repos\SerialPortCommunicate\SerialPortCommunicate\obj\Debug\SerialPortCommunicate.exe
+D:\MyData\jinshuang1\source\repos\SerialPortCommunicate\SerialPortCommunicate\obj\Debug\SerialPortCommunicate.pdb
+D:\MyData\jinshuang1\source\repos\SerialPortCommunicate\SerialPortCommunicate\obj\Debug\SerialPortCommunicate.Form_SerialPortCom.resources

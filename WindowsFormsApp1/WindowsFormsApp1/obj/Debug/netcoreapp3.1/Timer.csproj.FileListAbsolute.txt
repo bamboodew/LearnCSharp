@@ -1,0 +1,15 @@
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netcoreapp3.1\Timer.exe
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netcoreapp3.1\Timer.deps.json
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netcoreapp3.1\Timer.runtimeconfig.json
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netcoreapp3.1\Timer.runtimeconfig.dev.json
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netcoreapp3.1\Timer.dll
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netcoreapp3.1\Timer.pdb
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\Timer.csprojAssemblyReference.cache
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\Timer.csproj.GenerateResource.cache
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\Timer.AssemblyInfoInputs.cache
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\Timer.AssemblyInfo.cs
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\Timer.csproj.CoreCompileInputs.cache
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\Timer.dll
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\Timer.pdb
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\Timer.genruntimeconfig.cache
+D:\MyData\jinshuang1\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\Timer.MyTimer.resources
