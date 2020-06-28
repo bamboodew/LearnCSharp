@@ -4,7 +4,7 @@ using System.Windows.Forms;
 /*
  * 红绿灯系统：
  * 停——红灯10秒
- * 行——绿灯7秒，黄灯3秒
+ * 行——绿灯7秒，黄灯闪烁3秒：亮500ms，灭500ms
  * 
  * 按键1：开始、暂停、恢复
  * 按键2：停止
@@ -14,8 +14,9 @@ namespace TrafficLights
 {
     public partial class Form_TrafficLights : Form
     {
-        private int count = 0;                                  // 计数器
+        private int count = 0;                                  // 秒表的计数器
         private int time = 20;                                  // 定义初始时间10秒
+        private int count_100ms = 0;                            // 100ms定时器的计数器
 
         public Form_TrafficLights()
         {
@@ -25,6 +26,7 @@ namespace TrafficLights
         private void timer_Tick(object sender, System.EventArgs e)
         {
             count++;                                            // 计数器自加一
+            timer_100ms.Stop();
             if (time - count == 0)
             {
                 count = 0;                                      // 计数器清零复位
@@ -50,8 +52,7 @@ namespace TrafficLights
                 }
                 else
                 {
-                    label1.BackColor = Color.Yellow;            // 南北黄灯3~1颜色
-                    label2.BackColor = Color.Yellow;
+                    timer_100ms.Start();
                 }
                 label3.BackColor = Color.Red;                   // 东西红灯10~1颜色
                 label4.BackColor = Color.Red;
@@ -68,11 +69,11 @@ namespace TrafficLights
                 {
                     label3.BackColor = Color.LimeGreen;         //东西绿灯
                     label4.BackColor = Color.LimeGreen;
+                    timer_100ms.Stop();
                 }
                 else
                 {
-                    label3.BackColor = Color.Yellow;            // 东西黄灯
-                    label4.BackColor = Color.Yellow;
+                    timer_100ms.Start();
                 }
             }
         }
@@ -83,19 +84,19 @@ namespace TrafficLights
             {
                 button_Start.Text = "暂停";                     // 点击“开始”或“恢复”之后跳变显示为“暂停”
                 button_Start.BackColor = Color.LimeGreen;       // 按键颜色跳变为绿色，表示正在运行
-                timer.Start();                                  // 计时器开始工作
+                timer_1s.Start();                               // 计时器开始工作
             }
             else
             {
                 button_Start.Text = "恢复";                     // 点击“暂停”之后跳变显示为“恢复”
                 button_Start.BackColor = Color.LightGray;       // 按键颜色跳变为灰色，表示暂停运行
-                timer.Stop();                                   // 计时器暂停工作
+                timer_1s.Stop();                                // 计时器暂停工作
             }
         }
 
         private void button_Stop_Click(object sender, System.EventArgs e)
         {
-            timer.Stop();                                       // 定时器停止
+            timer_1s.Stop();                                    // 定时器停止
             count = 0;                                          // 计数器清零
             button_Start.Text = "开始";                         // 按键内容跳变为“开始”
             button_Start.BackColor = Color.LightGray;           // 按键颜色跳变为灰色
@@ -107,6 +108,40 @@ namespace TrafficLights
             label2.BackColor = Color.LimeGreen;
             label3.BackColor = Color.Red;                       // 东西灯复位为红色
             label4.BackColor = Color.Red;
+        }
+
+        private void timer_100ms_Tick(object sender, System.EventArgs e)
+        {
+            if (label1.BackColor != Color.Red)
+            {
+                if (count_100ms < 5)
+                {
+                    label1.BackColor = Color.Yellow;
+                    label2.BackColor = Color.Yellow;
+                }
+                else
+                {
+                    label1.BackColor = Color.Transparent;
+                    label2.BackColor = Color.Transparent;
+                }
+                count_100ms++;
+                if (count_100ms == 10) count_100ms = 0;
+            }
+            else
+            {
+                if (count_100ms < 5)
+                {
+                    label3.BackColor = Color.Yellow;
+                    label4.BackColor = Color.Yellow;
+                }
+                else
+                {
+                    label3.BackColor = Color.Transparent;
+                    label4.BackColor = Color.Transparent;
+                }
+                count_100ms++;
+                if (count_100ms == 10) count_100ms = 0;
+            }
         }
     }
 }

@@ -38,13 +38,14 @@
             this.lineShape3 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.timer_1s = new System.Windows.Forms.Timer(this.components);
             this.button_Start = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.button_Stop = new System.Windows.Forms.Button();
+            this.timer_100ms = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // shapeContainer1
@@ -129,10 +130,10 @@
             this.lineShape1.Y1 = 28;
             this.lineShape1.Y2 = 138;
             // 
-            // timer
+            // timer_1s
             // 
-            this.timer.Interval = 1000;
-            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            this.timer_1s.Interval = 1000;
+            this.timer_1s.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // button_Start
             // 
@@ -204,6 +205,10 @@
             this.button_Stop.UseVisualStyleBackColor = false;
             this.button_Stop.Click += new System.EventHandler(this.button_Stop_Click);
             // 
+            // timer_100ms
+            // 
+            this.timer_100ms.Tick += new System.EventHandler(this.timer_100ms_Tick);
+            // 
             // Form_TrafficLights
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -235,13 +240,14 @@
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape4;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape3;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
-        private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Timer timer_1s;
         private System.Windows.Forms.Button button_Start;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button_Stop;
+        private System.Windows.Forms.Timer timer_100ms;
     }
 }
 
