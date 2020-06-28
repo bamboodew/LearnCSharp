@@ -14,9 +14,9 @@ namespace TrafficLights
 {
     public partial class Form_TrafficLights : Form
     {
-        private int count = 0;                                  // 秒表的计数器
+        private int count;                                  // 秒表的计数器
         private int time = 20;                                  // 定义初始时间10秒
-        private int count_100ms = 0;                            // 100ms定时器的计数器
+        private int count_100ms;                            // 100ms定时器的计数器
 
         public Form_TrafficLights()
         {
@@ -52,7 +52,8 @@ namespace TrafficLights
                 }
                 else
                 {
-                    timer_100ms.Start();
+                    count_100ms = 0;                            // 以防stop的时候没有清零
+                    timer_100ms.Start();                        // 启动100ms表
                 }
                 label3.BackColor = Color.Red;                   // 东西红灯10~1颜色
                 label4.BackColor = Color.Red;
@@ -73,6 +74,7 @@ namespace TrafficLights
                 }
                 else
                 {
+                    count_100ms = 0;
                     timer_100ms.Start();
                 }
             }
@@ -111,23 +113,21 @@ namespace TrafficLights
         }
 
         private void timer_100ms_Tick(object sender, System.EventArgs e)
-        {
-            if (label1.BackColor != Color.Red)
+        {                                                       // 闪烁功能
+            if (label1.BackColor != Color.Red)                  // 南北方向不是红灯的时候
             {
-                if (count_100ms < 5)
+                if (count_100ms < 5)                            // 前500ms为黄灯
                 {
                     label1.BackColor = Color.Yellow;
                     label2.BackColor = Color.Yellow;
                 }
-                else
+                else                                            // 后500ms为透明
                 {
                     label1.BackColor = Color.Transparent;
                     label2.BackColor = Color.Transparent;
                 }
-                count_100ms++;
-                if (count_100ms == 10) count_100ms = 0;
             }
-            else
+            else                                                // 东西方向不是红灯的时候
             {
                 if (count_100ms < 5)
                 {
@@ -139,9 +139,9 @@ namespace TrafficLights
                     label3.BackColor = Color.Transparent;
                     label4.BackColor = Color.Transparent;
                 }
-                count_100ms++;
-                if (count_100ms == 10) count_100ms = 0;
             }
+            count_100ms++;                                      // 100ms计数器，自加
+            if (count_100ms == 10) count_100ms = 0;             // 到达1s时清零，重复循环
         }
     }
 }
